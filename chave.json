@@ -1,0 +1,23 @@
+{
+  "author": "Scott Chamberlain",
+  "date": "2016-04-18",
+  "version": "v0.1",
+  "license": "MIT",
+  "language": "R",
+  "dependencies": [
+    "curl",
+    "readxl",
+    "dplyr"
+  ],
+  "data": [
+    {
+      "doi": "10.5061/dryad.234/1",
+      "url": "http://dx.doi.org/10.5061/dryad.234/1"
+    }
+  ],
+  "location": "",
+  "deploy": {
+  	"provider": "s3",
+  	"bucket": "chave"
+  }
+}
